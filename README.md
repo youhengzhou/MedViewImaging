@@ -1,11 +1,15 @@
 # MedViewImaging
 
-Running the Prototype
+## Running the Prototype
+
 To run the prototype, please ensure the following files are present in the directory as shown in the figure below:
 
-Figure 1. MedView Imaging user authentication and access control system prototype file directory
+### Figure 1. MedView Imaging user authentication and access control system prototype file directory
+
 `medview.py`
+
 `passwd.txt`
+
 `weak_passwd.txt`
 
 Next, type in the terminal for the same directory the following command:
