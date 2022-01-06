@@ -4,7 +4,7 @@ import hashlib
 import datetime
 from dateutil.parser import parse
 
-# Problem 1
+# Role Permissions
 
 def role_permission_list(role):
     """
@@ -132,7 +132,7 @@ def authenticate_role(role_name, object, activity):
     # Returns false if the user does not have permission
     return False
 
-# Problem 2
+# Password Input
 
 class Password:
     userID = ''
@@ -232,7 +232,7 @@ def authenticate(userID, password):
             else:
                 return False
 
-# Problem 3
+# Password Checker
 
 def check_userID_duplicate(userID):
     """
@@ -371,7 +371,7 @@ def user_enrolment_interface():
                 print('Role is invalid')
                 print('Please try again')
 
-# Problem 4
+# User Interface
 
 def retrieve_role(userID):
     """
